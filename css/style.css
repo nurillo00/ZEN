@@ -1,0 +1,560 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&family=Nunito&family=Roboto:ital@0;1&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Istok Web', sans-serif;
+   font-family: 'Nunito', sans-serif;
+   font-family: 'Roboto', sans-serif;
+}
+
+ul {
+   list-style: none;
+}
+
+a {
+   display: inline-block;
+   text-decoration: none;
+}
+
+img {
+   display: inline-block;
+}
+
+span {
+   display: inline-block;
+}
+
+button {
+   cursor: pointer;
+}
+
+.container {
+   width: 1440px;
+   margin: 0 auto;
+   padding: 0 20px;
+}
+
+/*===================== HEADER START =========================*/
+
+.header {
+   padding: 20px 120px 15px 120px;
+   margin-bottom: 40px;
+}
+
+.wrap {
+   display: flex;
+   align-items: center;
+   margin-bottom: 15px;
+}
+
+.wrap img {
+   margin-right: 33px;
+}
+
+.wrap p {
+   margin-right: 22px;
+}
+
+.header_list {
+   display: flex;
+   gap: 0 30px;
+   margin-left: 490px;
+   margin-right: 10px;
+}
+
+.header_item {
+   color: #222;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+
+.wrap button {
+   width: 81px;
+   height: 35px;
+   border-radius: 38px;
+   border: 1px solid #000;
+   background: #FFF;
+   color: #222;
+   text-align: center;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+
+.header hr {
+   width: 155vh;
+}
+
+/*===================== HEADER END =========================*/
+
+
+/*===================== MAIN START =========================*/
+
+.main {
+   margin-left: 120px;
+}
+
+/*===================== HERO START =========================*/
+
+.hero {
+   margin-bottom: 98px;
+}
+
+.hero_wrap {
+   display: flex;
+   align-items: center;
+   gap: 0 135px;
+}
+
+.hero_play {
+   display: flex;
+   align-items: center;
+   gap: 0 8px;
+   margin-bottom: 31px;
+}
+
+.hero_text h2 {
+   color: #222;
+   font-size: 42px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 50.4px;
+}
+
+.hero_tittle {
+   margin-bottom: 24px;
+}
+
+.hero_text p {
+   width: 400px;
+   color: #222;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 25.92px;
+}
+
+/*===================== HERO END =========================*/
+
+/*===================== INFO START =========================*/
+
+.info {
+   margin-bottom: 132px;
+}
+
+.info_wrap {
+   display: flex;
+   align-items: center;
+   gap: 0 135px;
+}
+
+.info_text h3 {
+   margin-bottom: 23px;
+   color: #222;
+   font-size: 36px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 43.2px;
+}
+
+.info_p-top {
+   margin-bottom: 12px;
+   width: 439px;
+   color: #222;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 25.92px;
+}
+
+.info_p-bottom {
+   width: 445px;
+   color: #222;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 25.92px;
+}
+
+/*===================== INFO END =========================*/
+
+/*===================== CARE START =========================*/
+
+.care {
+   margin-bottom: 205px;
+}
+
+.care_wrap {
+   display: flex;
+   align-items: center;
+   gap: 0 135px;
+}
+
+.care_text h4 {
+   margin-bottom: 22px;
+   width: 157px;
+   color: #222;
+   font-size: 36px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 43.2px;
+}
+
+.care_text p {
+   margin-bottom: 15px;
+   width: 478px;
+   color: #222;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 25.92px;
+}
+
+/*===================== CARE END =========================*/
+
+/*===================== PAY START =========================*/
+
+.pay_wrap {
+   margin-bottom: 60px;
+}
+
+.pay_text {
+   width: 600px;
+   margin: 0 auto;
+   margin-bottom: 46px;
+   text-align: center;
+   color: #222222;
+}
+
+.pay_text h3 {
+   font-size: 36px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 43.2px;
+}
+
+.pay_text p {
+   width: 585px;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 25.92px;
+}
+
+.pay_wrap button {
+   display: block;
+   width: 237px;
+   height: 40px;
+   margin: 0 auto;
+   margin-bottom: 60px;
+   border-radius: 48px;
+   border: 1px solid #000;
+   background: #FFF;
+   color: #222;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+
+.pay_list {
+
+   display: flex;
+   flex-wrap: wrap;
+   gap: 60px 108px;
+   width: 1200px;
+   margin: 0 auto;
+}
+
+/*===================== PAY END =========================*/
+
+/*===================== CARD START =========================*/
+
+.card_wrap {
+   display: flex;
+   align-items: center;
+   gap: 0 140px;
+   margin-bottom: 130px;
+}
+
+.card_text {
+   width: 475px;
+
+}
+
+.card_icon {
+   display: flex;
+}
+
+.card_icon h4 {
+   margin-bottom: 22px;
+   color: #222;
+   font-size: 36px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 43.2px;
+}
+
+.card_icon p {
+   margin-top: -5px;
+   margin-left: 3px;
+}
+
+.card_text p {
+   margin-bottom: 28px;
+}
+
+.icon {
+   margin-left: 20px;
+}
+
+/*===================== CARD END =========================*/
+
+/*===================== SHOP START =========================*/
+
+.shop_wrap {
+   display: flex;
+   align-items: center;
+   gap: 0 135px;
+   margin-bottom: 116px;
+}
+
+.shop_text {
+   width: 478px;
+   color: #222;
+}
+
+.shop_text h5 {
+   margin-bottom: 22px;
+   font-size: 36px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 43.2px;
+}
+
+
+.shop_text p {
+   margin-bottom: 10px;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 25.92px;
+}
+
+/*===================== SHOP END =========================*/
+
+/*===================== APP START =========================*/
+
+.app_wrap {
+   display: flex;
+   align-items: center;
+   gap: 0 135px;
+   margin-bottom: 150px;
+}
+
+.app_text {
+   width: 475px;
+   color: #222;
+}
+
+.app_text h5 {
+   margin-bottom: 20px;
+   font-size: 36px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 43.2px;
+}
+
+.app_text p {
+   margin-bottom: 15px;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 25.92px;
+}
+
+/*===================== APP END =========================*/
+
+/*===================== DOWNLOAD START =========================*/
+
+.download_wrap {
+   display: flex;
+   align-items: center;
+   gap: 0 135px;
+   margin-bottom: 125px;
+}
+
+.download_text {
+   width: 470px;
+   color: #222;
+}
+
+.download_text h5 {
+   width: 277px;
+   margin-bottom: 22px;
+   font-size: 36px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 43.2px;
+}
+
+.download_p {
+   margin-bottom: 12px;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 25.92px;
+}
+
+.download_p-end {
+   margin-bottom: 32px;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 25.92px;
+}
+
+.download_btn {
+   margin-left: 20px;
+}
+
+/*===================== DOWNLOAD END =========================*/
+
+/*===================== MAIN END =========================*/
+
+
+
+
+/*===================== FOOTER START =========================*/
+
+
+footer {
+   padding: 50px 45px 65px 45px;
+}
+
+.footer hr {
+   margin-bottom: 22px;
+}
+
+.footer_wrap {
+   display: flex;
+   margin-bottom: 55px;
+}
+
+.footer_list {
+   margin-top: 47px;
+   margin-left: 120px;
+}
+
+.footer_item a {
+   margin-bottom: 15px;
+   color: #222;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+
+.download_list {
+   margin-top: 47px;
+   margin-left: 115px;
+}
+
+.download_item a {
+   margin-bottom: 15px;
+   color: #222;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+
+.account_list {
+   margin-top: 47px;
+   margin-left: 105px;
+}
+
+.account_item a {
+   margin-bottom: 15px;
+   color: #222;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+
+.language_list {
+   margin-top: 47px;
+   margin-left: 145px;
+}
+
+.language_item a {
+   margin-bottom: 15px;
+   color: #222;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+
+.subscribe_list {
+   margin-top: 47px;
+   margin-left: 128px;
+}
+
+.subscribe_item a {
+   margin-bottom: 25px;
+   color: #222;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+
+.gmail_list {
+   margin-top: 47px;
+   margin-left: 130px;
+}
+
+.gmail_item a {
+   margin-bottom: 25px;
+   color: #222;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+
+.footer_end {
+   display: flex;
+   margin-left: 120px;
+}
+
+.footer_left img {
+   margin-bottom: 20px;
+   margin-left: -0px;
+}
+
+.footer_left h5 {
+   width: 836px;
+   color: #AAA;
+   font-size: 12px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 15.6px;
+}
+
+.footer_img {
+   margin-top: 40px;
+   margin-left: 188px;
+}
+
+/*===================== FOOTER END =========================*/
